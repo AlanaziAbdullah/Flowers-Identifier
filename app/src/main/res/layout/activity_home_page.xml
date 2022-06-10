@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    >
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/form_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/myFlowersTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:text="My Flowers"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/flower_1_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myFlowersTitle"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="17dp"
+
+                />
+
+            <TextView
+                android:id="@+id/flower_1_Content"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_1_Title"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textSize="14dp"
+
+                />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/dandelionImage"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_toRightOf="@id/dandelionContent"-->
+<!--                android:src="@drawable/dandelion" />-->
+
+            <!--                                      -->
+            <!--                ROSE                  -->
+            <!--                                      -->
+            <TextView
+                android:id="@+id/flower_2_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_1_Content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="17dp"
+
+                />
+
+            <TextView
+                android:id="@+id/flower_2_Content"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_2_Title"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text=""
+                android:textSize="14dp"
+
+                />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/roseImage"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="300dp"-->
+<!--                android:layout_toRightOf="@id/roseContent"-->
+<!--                android:src="@drawable/rose" />-->
+
+            <!--                                      -->
+            <!--                SUNFLOWER                  -->
+            <!--                                      -->
+            <TextView
+                android:id="@+id/flower_3_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_2_Content"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="17dp"
+
+                />
+
+            <TextView
+                android:id="@+id/flower_3_Content"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_3_Title"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textSize="14dp"
+
+                />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/sunflowerImage"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="500dp"-->
+<!--                android:layout_toRightOf="@id/sunflowerContent"-->
+<!--                android:src="@drawable/sunflower" />-->
+
+            <!--                                      -->
+            <!--                Tulip                  -->
+            <!--                                      -->
+            <TextView
+                android:id="@+id/flower_4_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_3_Content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="17dp"
+
+                />
+
+            <TextView
+                android:id="@+id/flower_4_Content"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_4_Title"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textSize="14dp"
+
+                />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/tulipImage"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="700dp"-->
+<!--                android:layout_toRightOf="@id/tulipContent"-->
+<!--                android:src="@drawable/tulip" />-->
+
+            <!--                                      -->
+            <!--                DAISY                  -->
+            <!--                                      -->
+            <TextView
+                android:id="@+id/flower_5_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_4_Content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textSize="17dp"
+
+                />
+
+            <TextView
+                android:id="@+id/flower_5_Content"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flower_5_Title"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textSize="14dp"
+                android:layout_marginBottom="70dp"
+
+                />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/daisyImage"-->
+<!--                android:layout_width="130dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="900dp"-->
+<!--                android:layout_toRightOf="@id/daisyContent"-->
+<!--                android:src="@drawable/daisy" />-->
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

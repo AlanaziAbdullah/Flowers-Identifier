@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dandelionWatering">The dandelion has a very long taproot which extends deep into the ground.\nWater them just enough so that the soil feels moist. Check the soil by poking your finger into it once every 2 to 3 days. If the soil feels moist, then they do not need water yet. If it feels dry, then give them some water.</string>
+    <string name="roseWatering">Newly planted roses: water every two or three days.\nEstablished roses: water once or twice a week as needed to keep the soil moist around your roses.</string>
+    <string name="sunflowerWatering">Although sunflowers require a lot of water to germinate, they only require an inch of water per week during the growing season. Use a watering nozzle to easily water once a week until the top 6 inches of soil is moist.</string>
+    <string name="tulipsWatering">Tulips need very little water. Water them well just once when planting, then you can forget about them until spring. The only exception is during extended periods of drought when you should water weekly to keep the ground moist.</string>
+    <string name="daisiesWatering">Daisies usually require approximately 1 to 2 inches of water per week during the summer, either through irrigation, normal rainfall, or a combination of both. During spring and fall, daisies benefit from about 1 to 2 inches of water applied every other week.</string>
+    <string name="welcomeMessage">Welcome to My Plant</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signup">Signup</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+</resources>

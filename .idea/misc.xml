@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/drawable/selector.xml" value="0.3025" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/activity_detector_page.xml" value="0.2930253623188406" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/activity_flowers_list_page.xml" value="0.2930253623188406" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/activity_home_page.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/activity_main.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/activity_signin_page.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/activity_signup_page.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/fragment_detector.xml" value="0.33" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/fragment_my_flowers.xml" value="0.33" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/layout/fragment_take_picture.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/menu/bottom_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdullah/Desktop/CPIT490_Project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdullah/Desktop/FCIT/CPIT-490/CPIT490_Project/app/src/main/res/layout/activity_detector_page.xml" value="0.3625" />
+        <entry key="..\:/Users/Abdullah/Desktop/FCIT/CPIT-490/CPIT490_Project/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
+        <entry key="..\:/Users/Abdullah/Desktop/FCIT/CPIT-490/CPIT490_Project/app/src/main/res/menu/menu_bar.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

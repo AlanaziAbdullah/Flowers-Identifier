@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninPage"
+    >
+
+    <TextView
+        android:id="@+id/SignupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/signupEmailField"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/SignupTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="E-mail"
+        />
+
+    <EditText
+        android:id="@+id/signupPasswordField"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/signupEmailField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/signupButtonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signupPasswordField"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Signup"
+        />
+
+</RelativeLayout>
